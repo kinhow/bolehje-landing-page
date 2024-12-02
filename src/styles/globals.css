@@ -1,27 +1,18 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+    --pink: hsla(313, 33%, 88%, 1);
+    --purple: hsl(274, 78%, 58%);
+    --gray: hsl(206, 8%, 71%);
+    --dark-blue: hsl(234, 50%, 21%);
+    --light-purple: hsl(259, 75%, 91%);
+    --dark-purple: hsl(259, 27%, 76%);
+    --light-blue: hsl(210, 100%, 92%);
+    --lightness-blue: hsl(210, 50%, 81%);
+    --dark-pink: hsl(311, 20%, 72%);
+    --light-gray: hsl(206, 16%, 91%);
   }
 }

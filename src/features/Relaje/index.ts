@@ -1,0 +1,1 @@
+export { Relaje } from "./components";

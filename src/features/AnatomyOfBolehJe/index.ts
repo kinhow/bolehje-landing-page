@@ -1,0 +1,1 @@
+export { AnatomyOfBolehJe } from "./components";

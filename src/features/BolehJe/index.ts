@@ -1,0 +1,1 @@
+export { BolehJe } from "./components";

@@ -1,0 +1,1 @@
+export { WhyBolehJe } from "./components";
