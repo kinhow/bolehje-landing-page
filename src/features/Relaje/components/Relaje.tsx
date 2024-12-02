@@ -24,11 +24,11 @@ const Relaje = () => {
         </div>
       </div>
 
-      <div className="absolute -top-12 -left-4">
-        <Image src={YoungBoyYoungGirlImage} width={220} height={250} alt="young_boy_young_girl_image"  />
+      <div className="absolute -top-20 -left-10">
+        <Image src={YoungBoyYoungGirlImage} width={250} height={250} alt="young_boy_young_girl_image"  />
       </div>
 
-      <div className="absolute -top-10 left-38">
+      <div className="absolute -top-12 left-52">
         <Image src={EcologyEarthImage} width={90} height={126} alt="ecology_earth_image"  />
       </div>
 
