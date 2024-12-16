@@ -1,1 +1,0 @@
-export const BREVO_API_KEY = "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";

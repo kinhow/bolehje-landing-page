@@ -1,4 +1,3 @@
-import { BREVO_API_KEY } from "../constant";
 import { toast } from 'react-toastify';
 
 export async function submitFormToBrevoAPI() {
@@ -15,7 +14,7 @@ export async function submitFormToBrevoAPI() {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        "api-key": BREVO_API_KEY
+        "api-key": process.env.NEXT_PUBLIC_BREVO_API_KEY as string
       },
       body: JSON.stringify(emailData)
     })
