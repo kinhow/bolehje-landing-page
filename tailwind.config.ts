@@ -23,7 +23,8 @@ const config: Config = {
         "dark-purple": "var(--dark-purple)",
         "light-blue": "var(--light-blue)",
         "lightness-blue": "var(--lightness-blue)",
-        "light-gray": "var(--light-gray)"
+        "light-gray": "var(--light-gray)",
+        "lightness-gray": "var(--lightness-gray)"
       },
       fontFamily: {
         "alegreya-sans": "Alegreya Sans, sans-serif",

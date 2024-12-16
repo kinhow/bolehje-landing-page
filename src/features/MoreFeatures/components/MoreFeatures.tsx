@@ -1,9 +1,11 @@
 import { FramerMotion } from "@/components";
+import Image from "next/image";
+import MoreFeaturesImage from "../assets/more-features.png";
 
 const MoreFeatures = () => {
   return (
-    <FramerMotion delay={1.5} id="more-features" className="bg-[#EEF6D8] border-[#AFC379] h-[257px]">
-      <h3 className="font-playfair-display text-5xl font-semibold">More features coming soon!</h3>
+    <FramerMotion delay={1.5} id="more-features" className="!p-0 border-none h-[257px]">
+      <Image src={MoreFeaturesImage} width={480} height={257} alt="more_features_image" />
     </FramerMotion>
   )
 }

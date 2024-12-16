@@ -6,12 +6,12 @@ const BolehJe = () => {
     <FramerMotion
       delay={0.3}
       id="boleh-je"
-      className="bg-light-purple border-dark-purple h-[488px]"
+      className="bg-light-purple border-dark-purple"
     >
       <h3 className="font-playfair-display text-[5.375rem] font-semibold">BolehJe</h3>
       <ul className="list-disc ml-6 font-alegreya-sans">
         {BOLEHJE_LIST_ARR?.map(text => (
-          <li key={text} className="text-xl">{text}</li>
+          <li key={text} className="text-lg">{text}</li>
         ))}
       </ul>
     </FramerMotion>

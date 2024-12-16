@@ -8,7 +8,7 @@ import { SOCIAL_ICON_ARR } from "../constants";
 
 const GetInTouch = () => {
   return (
-    <FramerMotion delay={2.1} id="get-in-touch" className="bg-light-gray border-gray h-[257px] w-full">
+    <FramerMotion delay={2.1} id="get-in-touch" className="bg-light-gray border-gray h-[257px] w-[329px]">
       <div className="flex gap-6 flex-col">
         <h3 className="font-playfair-display text-[2rem] font-semibold text-center">Get In Touch</h3>
         <div className="flex flex-col gap-4">

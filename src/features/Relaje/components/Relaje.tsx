@@ -24,15 +24,15 @@ const Relaje = () => {
         </div>
       </div>
 
-      <div className="absolute -top-20 -left-10">
+      <div className="absolute -top-16 -left-10">
         <Image src={YoungBoyYoungGirlImage} width={250} height={250} alt="young_boy_young_girl_image"  />
       </div>
 
-      <div className="absolute -top-12 left-52">
+      <div className="absolute -top-1 left-52">
         <Image src={EcologyEarthImage} width={90} height={126} alt="ecology_earth_image"  />
       </div>
 
-      <div className="absolute -left-20 -bottom-8">
+      <div className="absolute -left-20 -bottom-14">
         <Image src={EventImage} width={380} height={230} alt="event_image"  />
       </div>
     </FramerMotion>
