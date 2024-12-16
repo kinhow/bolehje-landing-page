@@ -9,8 +9,8 @@ const Header = () => {
         <OrganizeEventButton />
       </div>
       <div className="flex items-center flex-col gap-8">
-        <h1 className="font-playfair-display font-semibold text-7xl text-dark-blue">Unlock the Universe</h1>
-        <h3 className="font-alegreya-sans text-2xl text-dark-blue">Where Every Dream Takes Flight</h3>
+        <h1 className="font-trirong font-semibold text-7xl text-dark-blue">Unlock the Universe</h1>
+        <h3 className="font-trirong text-2xl text-dark-blue">Where Every Dream Takes Flight</h3>
       </div>
     </header>
   )

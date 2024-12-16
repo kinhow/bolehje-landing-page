@@ -27,6 +27,7 @@ const config: Config = {
         "lightness-gray": "var(--lightness-gray)"
       },
       fontFamily: {
+        "trirong": "Trirong, sans-serif",
         "alegreya-sans": "Alegreya Sans, sans-serif",
         "playfair-display": "Playfair Display, serif"
       }
