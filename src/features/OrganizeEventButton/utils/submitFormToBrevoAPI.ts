@@ -1,6 +1,8 @@
 import { toast } from 'react-toastify';
 
 export async function submitFormToBrevoAPI() {
+  const apiKey = process.env.BREVO_API_KEY as string;
+
   const emailData = {
     sender: { email: 'bolehje@exalumen.com' },
     to: [{ email: 'recipient@example.com' }],
@@ -14,7 +16,7 @@ export async function submitFormToBrevoAPI() {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        "api-key": process.env.NEXT_PUBLIC_BREVO_API_KEY as string
+        "api-key": apiKey
       },
       body: JSON.stringify(emailData)
     })

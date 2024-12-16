@@ -1,7 +1,6 @@
 import { Name, Email, Enquiry, Organization, PhoneNumber } from ".";
 import { useForm, FormProvider } from "react-hook-form"
-import { submitFormToGoogleSheets } from "../../utils";
-import submitFormToBrevoAPI from "@/pages/apis/sendEmail";
+import { submitFormToBrevoAPI, submitFormToGoogleSheets } from "../../utils";
 
 const OrganizeEventForm = () => {
   const methods = useForm();
