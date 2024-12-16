@@ -1,7 +1,6 @@
 import Image from "next/image";
 import CasualLife from "../assests/casual-life.svg";
 import WhyBolehJeProfileImage from "../assests/why_boleh_je.svg";
-import { Fragment } from "react";
 import { FramerMotion } from "@/components";
 import { WHY_BOLEHJE_CONTENT_ARR } from "../constant";
 
