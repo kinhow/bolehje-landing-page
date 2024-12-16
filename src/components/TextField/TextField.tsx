@@ -9,7 +9,7 @@ const TextField = forwardRef((props: TextFieldProps, ref: React.Ref<HTMLInputEle
       ref={ref}
       sx={{
         [`& .${outlinedInputClasses.input}`]: {
-          fontFamily: 'Alegreya Sans'
+          fontFamily: 'Alegreya Sans, sans-serif'
         }
       }}
     />
