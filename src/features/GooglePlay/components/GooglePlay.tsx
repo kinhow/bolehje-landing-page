@@ -6,8 +6,8 @@ import { FramerMotion } from "@/components";
 
 const GooglePlay = () => {
   return (
-    <FramerMotion delay={1.8} id="download-google-play" className="bg-[#FFE5C1] border-[#DAC3A4] w-[300px] h-[257px]">
-      <h3 className="font-playfair-display text-2xl font-semibold text-right">Ready for BolehJe? Download Now!</h3>
+    <FramerMotion delay={1.8} id="download-google-play" className="bg-[#FFE5C1] border-[#DAC3A4] w-full md:w-[300px] h-[257px]">
+      <h3 className="font-playfair-display text-2xl font-semibold text-right ml-5 md:ml-0">Ready for BolehJe? Download Now!</h3>
 
       <div className="absolute -bottom-6 -left-4">
         <Image src={YoungWomanImage} width={198} height={268} alt="young_women" />

@@ -4,10 +4,5 @@ import type { AppProps } from "next/app";
 import "react-toastify/dist/ReactToastify.css";
 
 export default function App({ Component, pageProps }: AppProps) {
-  return (
-    <>
-      <SEO />
-      <Component {...pageProps} />
-    </>
-  )
+  return <Component {...pageProps} />
 }

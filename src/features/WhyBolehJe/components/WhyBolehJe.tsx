@@ -20,10 +20,10 @@ const WhyBolehJe = () => {
           </div>
         ))}
       </div>
-      <div className="absolute -top-48 right-0 z-99">
+      <div className="hidden md:block absolute -top-48 right-0 z-99">
         <Image src={CasualLife} width={215} height={206} alt="casual_life" />
       </div>
-      <div className="absolute -top-20 -right-9">
+      <div className="hidden md:block absolute -top-20 -right-9">
         <Image src={WhyBolehJeProfileImage} width={361} height={145} alt="why_boleh_je_profile" />
       </div>
     </FramerMotion>
