@@ -1,5 +1,4 @@
 import "@/styles/globals.css";
-import { SEO } from "@/components";
 import type { AppProps } from "next/app";
 import "react-toastify/dist/ReactToastify.css";
 
