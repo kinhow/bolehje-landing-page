@@ -1,1 +1,1 @@
-export const RELAJE_ARR = ["Events", "Donations", "Valunteering"];
+export const RELAJE_ARR = ["Events", "Donation Platforms", "Volunteering Opportunities"];

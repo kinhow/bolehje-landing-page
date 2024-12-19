@@ -13,10 +13,9 @@ const Relaje = () => {
       className="bg-pink border-dark-pink md:h-[316px] mt-0 md:mt-6"
     >
       <div className="flex flex-col-reverse md:flex-row-reverse gap-6">
-        <div className="flex flex-col gap-4 md:gap-6">
+        <div className="flex flex-col gap-4 md:gap-6 md:ml-[18.125rem]">
           <h3 className="font-playfair-display text-5xl font-semibold">RelaJe</h3>
-          <h4 className="font-playfair-display text-2xl font-semibold block md:hidden">Browse the exciting :</h4>
-          <h4 className="font-playfair-display text-2xl font-semibold hidden md:block">Browse the <br /> exciting :</h4>
+          <h4 className="font-playfair-display text-2xl font-semibold block md:hidden">Browse Engaging:</h4>
           <ul className="list-disc ml-6">
             {RELAJE_ARR?.map(text => (
               <li key={text} className="font-alegreya-sans font-medium text-xl">{text}</li>
