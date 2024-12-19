@@ -11,7 +11,7 @@ export const WHY_BOLEHJE_CONTENT_ARR = [
     title: "Trust You Can Rely On",
     content: `
       Your peace of mind is our priority. With a strict 3-step verification process and
-      advanced e-KYC technology, BolehJe guarantees a secure, reliable, and seamless
+      advanced e-KYC technology, BolehJe provide a secure, reliable, and seamless
       experience every time you use the app. Trust us to keep your safety at the forefront!
     `
   },

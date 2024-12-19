@@ -14,8 +14,8 @@ const WhyBolehJe = () => {
       <h3 className="font-playfair-display text-[2rem] font-semibold mt-[-1.2rem]">Why BolehJe?</h3>
       <div className="flex flex-col gap-2">
         {WHY_BOLEHJE_CONTENT_ARR?.map(item => (
-          <div key={item.title}>
-            <strong>{item.title}</strong>
+          <div key={item.title} className="font-alegreya-sans font-normal text-lg">
+            <strong className="font-alegreya-sans">{item.title}</strong>
             <p>{item.content}</p>
           </div>
         ))}

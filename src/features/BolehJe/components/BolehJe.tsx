@@ -9,11 +9,11 @@ const BolehJe = () => {
       className="bg-light-purple border-dark-purple"
     >
       <h3 className="font-playfair-display text-[5.375rem] font-semibold">BolehJe</h3>
-      <ul className="list-disc ml-6 font-alegreya-sans">
+      <div className="flex flex-col gap-2">
         {BOLEHJE_LIST_ARR?.map(text => (
-          <li key={text} className="text-lg">{text}</li>
+          <p key={text} className="font-alegreya-sans text-lg">{text}</p>
         ))}
-      </ul>
+      </div>
     </FramerMotion>
   )
 }
