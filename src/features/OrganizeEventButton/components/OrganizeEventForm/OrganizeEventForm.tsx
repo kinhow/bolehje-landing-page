@@ -6,7 +6,7 @@ const OrganizeEventForm = () => {
   const methods = useForm();
 
   const onSubmit = (data: any) => {
-    submitFormToBrevoAPI();
+    submitFormToBrevoAPI(data);
     submitFormToGoogleSheets(data);
   }
 

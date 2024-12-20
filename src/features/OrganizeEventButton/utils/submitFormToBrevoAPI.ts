@@ -1,6 +1,6 @@
 import { toast } from 'react-toastify';
 
-export async function submitFormToBrevoAPI() {
+export async function submitFormToBrevoAPI(data: any) {
   const apiKey = process.env.BREVO_API_KEY as string;
 
   const emailData = {
@@ -8,7 +8,14 @@ export async function submitFormToBrevoAPI() {
     to: [{ email: 'recipient@example.com' }],
     subject: 'Subject of the email',
     htmlContent: '<html><body><h1>Hello, this is a test email from Brevo API!</h1></body></html>',
-    textContent: 'Hello, this is a test email from Brevo API!'
+    textContent: 'Hello, this is a test email from Brevo API!',
+    params: {
+      name: data.name,
+      organization: data.organization,
+      phone: data.phone,
+      email: data.email,
+      enquiry: data.enquiry
+    }
   };
   
   try {
